@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<window type="window" id="14000">
+	<defaultcontrol always="false">100</defaultcontrol>
+   <backgroundcolor>0</backgroundcolor>
+   <allowoverlay>yes</allowoverlay>
+    <controls>
+     <control type="label" id="110">
+       <description>some label that shows text</description>
+       <posx>50</posx>
+       <posy>50</posy>
+       <width>250</width>
+       <height>40</height>
+       <align>left</align>
+       <aligny>center</aligny>
+       <scroll>false</scroll>
+       <label>Main Window</label>
+       <number></number>
+       <haspath>false</haspath>
+       <font>font23</font>
+       <textcolor>white</textcolor>
+       <shadowcolor>grey</shadowcolor>
+       <wrapmultiline>false</wrapmultiline>
+   </control>
+       <control type="button" id="100">
+       <posx>100</posx>
+			<posy>100</posy>
+			<width>145</width>
+			<height>145</height>
+			<label>Click Me!</label>
+			<font>font36b</font>
+			<textcolor>white</textcolor>
+			<focusedcolor>green</focusedcolor>
+			<texturefocus>-</texturefocus>
+			<texturenofocus>-</texturenofocus>
+			<onclick lang="python"><![CDATA[
+import functions
+functions.playVideo()
+]]></onclick>
+		<onright>120</onright>
+    </control>
+    <control type="button" id="120">
+       <posx>300</posx>
+			<posy>100</posy>
+			<width>145</width>
+			<height>145</height>
+			<label>Click Me Too!</label>
+			<font>font36b</font>
+			<textcolor>white</textcolor>
+			<focusedcolor>green</focusedcolor>
+			<texturefocus>-</texturefocus>
+			<texturenofocus>-</texturenofocus>
+			<onleft>100</onleft>
+    </control>	
+	<control type="videowindow">
+		<posx>700</posx>
+		<posy>50</posy>
+		<width>500</width>
+		<height>500</height>
+    </control>
+   </controls>
+</window>

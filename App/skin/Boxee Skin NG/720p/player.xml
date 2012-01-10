@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<window type="dialog" id="14002">
+   <backgroundcolor>0</backgroundcolor>
+   <allowoverlay>yes</allowoverlay>
+   	<posx>100</posx>
+	<posy>600</posy>
+   <controls>
+	 <control type="videowindow">
+
+		<posx>159</posx>
+		<posy>150</posy>
+		<width>500</width>
+		<height>500</height>
+
+    </control>
+   </controls>
+</window>
